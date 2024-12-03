@@ -13,13 +13,16 @@
     --danger:#E25858;
     --sucess: #00B37E;
 }
+body{
+    background-color: var(--gray-600);
+}
 *{
     font-family: "Inter", sans-serif;
     margin: 0;
     color: #f5f5f5;
     padding: 0;
     box-sizing: border-box;
-    background-color: #171717;
+
 }
 input:focus, input:hover{
     outline: none;
